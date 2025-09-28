@@ -8,5 +8,7 @@ public class wordleSolver {
         File file = new File("C:\\VSCode\\java\\old_code\\wordle_solver\\wordle_solver\\5 Letter Words");
         BufferedReader br = new BufferedReader(new FileReader(file));
 		String st;
+
+        ArrayList<String> avaliableWords = new ArrayList<String>();
     }
 }
