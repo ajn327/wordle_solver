@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 
 public class wordleSolver {
@@ -16,5 +17,12 @@ public class wordleSolver {
 		{
 			avaliableWords.add(st);
 		}
+        Scanner keyboard = new Scanner(System.in);
+
+        while(true)
+		{
+            System.out.println("Enter Input Word");
+			String in = keyboard.next().toLowerCase();
+        }
     }
 }
