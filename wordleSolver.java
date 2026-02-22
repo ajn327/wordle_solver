@@ -23,6 +23,10 @@ public class wordleSolver {
 		{
             System.out.println("Enter Input Word");
 			String in = keyboard.next().toLowerCase();
+            System.out.println("Enter - for a letter not in the word");
+			System.out.println("Enter o for a letter in the word but in the wrong space");
+			System.out.println("Enter x for a letter in the word in the right space");
+			String result = keyboard.next();
         }
     }
 }
