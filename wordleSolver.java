@@ -31,6 +31,12 @@ public class wordleSolver {
 			{
 				break;
 			}
+
+            for(int i = 0; i < 5; i++)
+			{
+                String letter = in.substring(i, i + 1);
+				String rate = result.substring(i, i + 1);
+            }
         }
     }
 }
