@@ -13,29 +13,31 @@ public class wordleSolver {
 		String st;
 
         ArrayList<String> avaliableWords = new ArrayList<String>();
-        while ((st = br.readLine()) != null)
-		{
+        while ((st = br.readLine()) != null) {
 			avaliableWords.add(st);
 		}
         Scanner keyboard = new Scanner(System.in);
 
-        while(true)
-		{
+        while(true) {
             System.out.println("Enter Input Word");
 			String in = keyboard.next().toLowerCase();
             System.out.println("Enter - for a letter not in the word");
 			System.out.println("Enter o for a letter in the word but in the wrong space");
 			System.out.println("Enter x for a letter in the word in the right space");
 			String result = keyboard.next();
-            if(result.contentEquals("xxxxx"))
-			{
+            if(result.contentEquals("xxxxx")) {
 				break;
 			}
 
-            for(int i = 0; i < 5; i++)
-			{
+            for(int i = 0; i < 5; i++) {
                 String letter = in.substring(i, i + 1);
 				String rate = result.substring(i, i + 1);
+
+                System.out.println(rate + " " + letter);
+				
+				for(int j = 0; j < avaliableWords.size(); j++) {
+                
+                }
             }
         }
     }
