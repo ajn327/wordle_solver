@@ -36,7 +36,7 @@ public class wordleSolver {
                 System.out.println(rate + " " + letter);
 				
 				for(int j = 0; j < avaliableWords.size(); j++) {
-                
+                    String element = avaliableWords.get(j);
                 }
             }
         }
