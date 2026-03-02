@@ -37,6 +37,10 @@ public class wordleSolver {
 				
 				for(int j = 0; j < avaliableWords.size(); j++) {
                     String element = avaliableWords.get(j);
+                    if(rate.contentEquals("x"))
+					{
+                    
+                    }
                 }
             }
         }
